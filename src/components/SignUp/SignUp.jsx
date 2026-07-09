@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import "./SignUp.css"
 import { useState } from 'react';
 function SignUp() {
@@ -38,6 +39,7 @@ function SignUp() {
             backgroundColor: isHovered ?  '#121212' : '#000',
           }}
         >Submit</button>
+        <NavLink to='/' style={{   color:'black', marginTop:'10px'}}>Back</NavLink>
       </form>
     </div>
   )

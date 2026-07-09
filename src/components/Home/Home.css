@@ -11,3 +11,15 @@
      justify-items: center;
     }
 }
+
+@media (max-width:360px){
+
+.trips{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin: 0;
+    padding: 0 10px;
+}
+
+}

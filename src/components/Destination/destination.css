@@ -123,16 +123,27 @@ img{
 
 .left-content p{
     font-size:15px;
-    width:100%;
+    width:92%;
+    text-align: justify;
 }
 
 .right-content{
     gap:15px;
 }
-
-.right-content img{
-    width:62%;
-    height:280px;
+.right-content{
+    display: flex;
+    flex-direction: column;
+    gap: 85px;
+    text-align: center;
 }
+
+
+    .right-content img{
+    width: 220px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
 
 }
