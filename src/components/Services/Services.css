@@ -1,0 +1,15 @@
+
+
+.trips{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+     margin-inline: 100px;
+}
+@media screen and (max-width:767px) {
+    .trips{
+        grid-template-columns: 1fr;
+     justify-items: center;
+      margin-inline: 20px;
+        
+    }
+}

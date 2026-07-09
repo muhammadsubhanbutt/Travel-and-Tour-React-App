@@ -1,0 +1,50 @@
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input ,textarea{
+  width: 35vw;
+  height: 3vw;
+  margin-top: 15px;
+  padding: 5px 10px;
+  outline: none;
+}
+button {
+  width: 30vw;
+  height: 3vw;
+  margin-top: 15px;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+
+textarea{
+    height: 6vw;
+    width: 30vw;
+}
+
+@media screen and (max-width:767px) {
+ 
+
+input ,textarea{
+  width: 60vw;
+  height: 6.5vw;
+  margin-top: 18px;
+}
+button {
+  width: 60vw;
+  height: 6.5vw;
+  margin-top: 18px;
+  padding: 5px 10px;
+}
+
+textarea{
+    height: 10vw;
+    width: 49vw;
+}   
+}
