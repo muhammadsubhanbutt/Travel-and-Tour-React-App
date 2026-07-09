@@ -124,7 +124,7 @@ img{
 .left-content p{
     font-size:15px;
     width:92%;
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 .right-content{
@@ -135,12 +135,13 @@ img{
     flex-direction: column;
     gap: 85px;
     text-align: center;
+    justify-content: center;
 }
 
 
     .right-content img{
-    width: 220px;
-    height: 270px;
+    width: 250px;
+    height: 300px;
     object-fit: cover;
     border-radius: 8px;
 }
