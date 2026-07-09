@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Destination.css"
+import "./destination.css"
 // import AboutImag from "/src/assets/night.jpg"
 
 function Destination({cName,place,text,title,h2,Img1,Img2}) {

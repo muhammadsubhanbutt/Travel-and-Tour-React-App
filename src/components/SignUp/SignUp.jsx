@@ -1,5 +1,5 @@
 import React from 'react';
-import "./SuignUp.css"
+import "./SignUp.css"
 import { useState } from 'react';
 function SignUp() {
    const [isHovered, setIsHovered] = useState(false);

@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../Hero/Hero";
-import Navbar from "../header/navbar";
+import Navbar from "../Header/Navbar";
 import HomeHeroImage from "/src/assets/12.jpg";
 import Destination from "../Destination/Destination";
 import img from "/src/assets/1.jpg";

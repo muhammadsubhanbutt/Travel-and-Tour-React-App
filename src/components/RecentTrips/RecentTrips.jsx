@@ -1,5 +1,5 @@
 import React from 'react'
-import "./RecentTrips.css"
+import "./recentTrips.css"
 function RecentTrips({Img,para,place}) {
   return (
     <div className='recent-trips'>
