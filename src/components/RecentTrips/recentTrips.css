@@ -1,90 +1,87 @@
-.recent-trips{
-    width: 100%;
+.recent-trips {
+  width: 100%;
 }
-.recent-trips h1{
-text-align: center;
+.recent-trips h1 {
+  text-align: center;
 }
-.recent-trips .main-content{
-    margin-top: 50px;
-    width: 300px;
-   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.25);
+.recent-trips .main-content {
+  margin-top: 50px;
+  width: 300px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.25);
   height: 70vh;
   text-align: center;
   max-width: 700px;
 }
-.recent-trips .main-content .img img{
-margin-top: 15px;
-width: 270px;
-height: 170px;
-object-fit: cover;
- transition: transform 0.1s ease-in-out;
+.recent-trips .main-content .img img {
+  margin-top: 15px;
+  width: 270px;
+  height: 170px;
+  object-fit: cover;
+  transition: transform 0.1s ease-in-out;
 }
 
-.recent-trips .main-content .img img:hover{
-        transform: scale(1.02);
+.recent-trips .main-content .img img:hover {
+  transform: scale(1.02);
 }
-.recent-trips .main-content .para p{
-    text-align: left;
-    padding: 0px 12px;
-    font-size: 14px;
+.recent-trips .main-content .para p {
+  text-align: left;
+  padding: 0px 12px;
+  font-size: 14px;
+  margin-top: 15px;
+}
+.titl {
+  text-align: left;
+  padding-left: 12px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .recent-trips .main-content {
+    width: 90%;
+  }
+  .recent-trips .main-content .img img {
     margin-top: 15px;
-}
-.titl{
-    text-align: left;
-    padding-left: 12px;
-    font-size: 18px;
-}
-
-
-@media screen and (max-width:767px) {
-    .recent-trips .main-content{
-       width: 90%;
-}
-.recent-trips .main-content .img img{
-margin-top: 15px;
-width: 90%;
-height: 200px;
-}
-.recent-trips .main-content .para p{
+    width: 90%;
+    height: 200px;
+  }
+  .recent-trips .main-content .para p {
     font-size: 1.2rem;
-}
-.titl{
+  }
+  .titl {
     padding-left: 12px;
     font-size: 1.6rem;
-}
-.recent-trips .main-content{
+  }
+  .recent-trips .main-content {
     height: 80vh;
-}
-}
-
-@media (max-width:360px){
-
-.recent-trips{
-    width:100%;
-    display:flex;
-    justify-content:center;
+  }
 }
 
-.recent-trips .main-content{
-    width:80%;
-    max-width:340px;
-    height:auto;
-    margin:30px auto 0;
-    padding-bottom:20px;
-}
+@media (max-width: 360px) {
+  .recent-trips {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 
-.recent-trips .main-content .img img{
-    width:90%;
-    height:200px;
-    object-fit:cover;
-}
+  .recent-trips .main-content {
+    width: 80%;
+    max-width: 340px;
+    height: auto;
+    margin: 30px auto 0;
+    padding-bottom: 20px;
+  }
 
-.titl{
-    font-size:20px;
-}
+  .recent-trips .main-content .img img {
+    width: 90%;
+    height: 200px;
+    object-fit: cover;
+  }
 
-.recent-trips .main-content .para p{
-    font-size:18px;
-}
+  .titl {
+    font-size: 20px;
+  }
 
+  .recent-trips .main-content .para p {
+    font-size: 18px;
+  }
 }
