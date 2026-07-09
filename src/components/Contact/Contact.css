@@ -33,18 +33,37 @@ textarea{
 
 input ,textarea{
   width: 60vw;
-  height: 6.5vw;
+  height: 45px;
   margin-top: 18px;
 }
 button {
   width: 60vw;
-  height: 6.5vw;
+  height: 45px;
   margin-top: 18px;
   padding: 5px 10px;
 }
 
 textarea{
-    height: 10vw;
+    height: 45px;
     width: 49vw;
 }   
+}
+
+@media (max-width:360px){
+
+input,
+textarea{
+    width:90%;
+    height:45px;
+}
+
+textarea{
+    height:120px;
+}
+
+button{
+    width:90%;
+    height:45px;
+}
+
 }

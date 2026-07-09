@@ -40,3 +40,22 @@ color: lightblue;
 
 
 }
+
+@media (max-width:360px){
+
+.footer-component{
+    height:auto;
+    padding:20px;
+}
+
+.upper-footer{
+    flex-direction:column;
+    gap:20px;
+}
+
+.footer-links{
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+}
+
+}

@@ -131,3 +131,25 @@ nav .nav-menu ul .sign-up:hover {
     font-size: 30px;
   }
 }
+
+
+@media (max-width:360px){
+
+.navContainer{
+    width:95%;
+    padding:12px;
+}
+
+nav .logo p{
+    font-size:28px;
+}
+
+nav .nav-menu ul li{
+    font-size:20px;
+}
+
+i{
+    font-size:26px;
+}
+
+}

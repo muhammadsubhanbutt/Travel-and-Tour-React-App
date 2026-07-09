@@ -55,3 +55,27 @@ height: 200px;
     height: 80vh;
 }
 }
+
+
+@media (max-width:360px){
+
+.recent-trips .main-content{
+    width:100%;
+    height:auto;
+    padding-bottom:20px;
+}
+
+.recent-trips .main-content img{
+    width:92%;
+    height:180px;
+}
+
+.titl{
+    font-size:20px;
+}
+
+.recent-trips .para p{
+    font-size:15px;
+}
+
+}

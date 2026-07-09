@@ -91,3 +91,27 @@ left: 14%;
 }
 
 }
+
+
+
+@media (max-width:360px){
+
+.text{
+    left:50%;
+    transform:translateX(-50%);
+    width:90%;
+}
+
+.title{
+    font-size:28px;
+}
+
+.txt{
+    font-size:16px;
+}
+
+.text .anchor{
+    padding:10px 18px;
+}
+
+}

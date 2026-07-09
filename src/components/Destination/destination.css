@@ -108,3 +108,31 @@ img{
         height: 45vh;
     }
 }
+
+
+@media (max-width:360px){
+
+.left-main,
+.right-main{
+    padding:20px;
+}
+
+.left-content h2{
+    font-size:24px;
+}
+
+.left-content p{
+    font-size:15px;
+    width:100%;
+}
+
+.right-content{
+    gap:15px;
+}
+
+.right-content img{
+    width:42%;
+    height:180px;
+}
+
+}

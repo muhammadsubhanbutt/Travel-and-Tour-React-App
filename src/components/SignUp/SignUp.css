@@ -43,13 +43,34 @@ input{
 
 input{
   width: 47vw;
-  height: 6.5vw;
+  height: 45px;
   margin-top: 18px;
 }
 button{
      width: 47vw;
-  height: 6.5vw;
+  height: 45px;
   margin-top: 18px;
  
 }
+}
+
+
+@media (max-width:360px){
+
+.sign-up-form{
+    width:92%;
+    height:auto;
+    padding:20px 0;
+}
+
+.sign-up-form input{
+    width:85%;
+    height:45px;
+}
+
+#one{
+    width:85%;
+    height:45px;
+}
+
 }
